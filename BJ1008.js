@@ -13,6 +13,7 @@ rl.on('line', function (line) {
   if (count == 3) {
     rl.close();
   }
+  //3번 입력 후 close된다.
 });
 
 // rl.on('line', function (line) {
